@@ -37,7 +37,7 @@
   npm i
   npm run dev
   ```
-В результате запустится сервер на http://localhost:5173/
+В результате запустится сервер на http://localhost:5173/sf-frontend
 
 ## Деплой
 

@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { AppProvider } from './app/index.ts'
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename='https://ggermashev.github.io/sf-frontend'>
+  <BrowserRouter basename='sf-frontend'>
     <AppProvider>
       <App />
     </AppProvider>

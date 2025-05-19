@@ -16,6 +16,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
+    margin-bottom: 56px;
 
     & > * {
       width: calc(100%/3 - 16px);
@@ -37,7 +38,6 @@
       }
     }
 
-    margin-bottom: 56px;
   }
 
   .more {
