@@ -15,6 +15,7 @@ export const articles: IArticle[] = [
   {
     id: '1',
     img: Article1,
+    alt: 'Эмоциональные яйца',
     tags: [tags.selfEsteem, tags.self],
     title: "Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики",
     author: 'Лиза Файнтух',
@@ -24,6 +25,7 @@ export const articles: IArticle[] = [
   {
     id: '2',
     img: Article2,
+    alt: 'Девушка на пробежке',
     tags: [tags.self],
     title: "Как не утонуть в тревоге и управлять своими страхами",
     author: 'Екатерина Бельтюкова',
@@ -33,6 +35,7 @@ export const articles: IArticle[] = [
   {
     id: '3',
     img: Article3,
+    alt: 'Девушка на кровати',
     tags: [tags.selfEsteem, tags.food],
     title: "Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики",
     author: 'Лиза Файнтух',
@@ -42,6 +45,7 @@ export const articles: IArticle[] = [
   {
     id: '4',
     img: Article4,
+    alt: 'Девушка в бассейне',
     tags: [tags.self],
     title: "Как не утонуть в тревоге и управлять своими страхами",
     author: 'Екатерина Бельтюкова',
@@ -51,6 +55,7 @@ export const articles: IArticle[] = [
   {
     id: '5',
     img: Article5,
+    alt: 'Злобный стикер',
     tags: [tags.self],
     title: "Как управлять своими эмоциями 8 шагов",
     author: 'Екатерина Бельтюкова',
@@ -60,6 +65,7 @@ export const articles: IArticle[] = [
   {
     id: '6',
     img: Article6,
+    alt: 'Женщина за ноутбуком',
     tags: [tags.self],
     title: "Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики",
     author: 'Лиза Файнтух под редакцией  Екатерины Бельтюковой',
@@ -69,6 +75,7 @@ export const articles: IArticle[] = [
   {
     id: '7',
     img: Article7,
+    alt: 'Бабушка в видеозвонке',
     tags: [tags.self],
     title: "Как не утонуть в тревоге и управлять своими страхами",
     author: 'Екатерина Бельтюкова',
@@ -78,6 +85,7 @@ export const articles: IArticle[] = [
   {
     id: '8',
     img: Article8,
+    alt: 'Два мужчины',
     tags: [tags.self],
     title: "Эмоциональное выгорание – стадии и симптомы, методы восстановления и профилактики",
     author: 'Лиза Файнтух',

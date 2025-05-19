@@ -12,8 +12,8 @@ export const OfferBanner = () => {
       <p>{description}</p>
       <p className={styles.price}>{price}</p>
       <AppButton variant="filled">Купить</AppButton>
-      <img className={styles.gift1} src={Gift1}/>
-      <img className={styles.gift2} src={Gift2}/>
+      <img className={styles.gift1} src={Gift1} alt=""/>
+      <img className={styles.gift2} src={Gift2} alt=""/>
     </Banner>
   )
 }

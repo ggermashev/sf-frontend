@@ -9,7 +9,7 @@ import { AppContext } from "../../../../shared/context/AppContext";
 
 
 export const ArticleCard = (props: IArticle & ComponentProps<"div">) => {
-  const {tags, img, title, author, date, content, className, ...args} = props
+  const {tags, img, alt, title, author, date, content, className, ...args} = props
   const navigate = useNavigate()
 
   const {setArticleTitle} = useContext(AppContext)
@@ -26,7 +26,7 @@ export const ArticleCard = (props: IArticle & ComponentProps<"div">) => {
       <div className={styles.tagsContainer}>
         {Object.values(tags).map(tag => <Tag {...tag} icon={Unicorn}/>)}
       </div>
-      <img src={img} className={styles.img}/>
+      <img src={img} alt={alt} className={styles.img}/>
       <div className={styles.content}>
         <h3>{title}</h3>
         <p className={cl("small", styles.author)}>Автор: {author}</p>

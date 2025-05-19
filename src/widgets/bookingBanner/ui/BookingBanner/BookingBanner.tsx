@@ -7,7 +7,7 @@ import { AppButton } from "../../../../shared/ui/Button"
 export const BookingBanner = () => {
   return (
     <Banner className={styles.bookingBanner}>
-      <img src={BookingImg}/>
+      <img src={BookingImg} alt="Счастливые люди смотрят в телефон"/>
       <p className="large">{title}</p>
       <p>{description}</p>
       <AppButton variant="filled">Подробнее</AppButton>

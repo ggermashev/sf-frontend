@@ -7,6 +7,7 @@ export interface IArticle {
   title: string
   author: string
   img: string
+  alt: string
   date: string
   content: string
 }

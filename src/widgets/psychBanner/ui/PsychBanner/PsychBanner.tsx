@@ -16,7 +16,7 @@ export const PsychBanner = () => {
         ))}
       </div>
       <div className={styles.top}>
-        <img src={img}/>
+        <img src={img} alt="Фото девушки"/>
         <h3 className="large">{name}</h3>
         <p className={cl("large", styles.label)}>{label}</p>
         <div className={styles.info}>

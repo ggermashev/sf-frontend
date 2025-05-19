@@ -49,7 +49,7 @@ export const ArticlePage = () => {
           <div className={styles.circle}></div>
           <p>21.08.2021</p>
         </div>
-        <img src={Img} className={styles.mainImg}/>
+        <img src={Img} alt="Девушка в воде" className={styles.mainImg}/>
         <ul className={styles.content}>
           <p className="large">Содержание</p>
           <li>Как понять, что отношения с мамой были дисфункциональными и привели к травме?</li>
@@ -81,7 +81,7 @@ export const ArticlePage = () => {
           </p>
         </div>
         <div className={styles.quote1}>
-          <img src={Quote}/>
+          <img src={Quote} alt=""/>
           <p className={styles.quote}>
             Мы знаем, что нуждаться в помощи и поддержке 
             в трудные периоды жизни абсолютно нормально
@@ -110,7 +110,7 @@ export const ArticlePage = () => {
           </li>
         </ul>
         <div className={styles.gap16} style={{margin: "16px 0"}}>
-          <img src={Article1} className={styles.articleImg1}/>
+          <img src={Article1} alt="Мужчины" className={styles.articleImg1}/>
           <p style={{color: "#868686", fontSize: "14px"}}>Онтогенез речи отражает групповой эриксоновский гипноз. </p>
         </div>
         <p style={{margin: "16px 0"}}>
@@ -123,7 +123,7 @@ export const ArticlePage = () => {
           неопределенности, да и к жизни в целом.
         </p>
         <div className={styles.quote2}>
-          <img src={Smth}/>
+          <img src={Smth} alt=""/>
           <p>
             Мы знаем, что нуждаться в помощи и поддержке 
             в трудные периоды жизни абсолютно нормально 
@@ -145,7 +145,7 @@ export const ArticlePage = () => {
           или "как у других".
         </p>
         <div className={styles.imgAndText}>
-          <img src={ArticleImg2}/>
+          <img src={ArticleImg2} alt="Женщина в очках"/>
           <p>
             Чем шире доступный вам репертуар реакций 
             и чем более осознанно вы можете выбирать 
@@ -198,7 +198,7 @@ export const ArticlePage = () => {
           </li>
         </ul>
         <div className={styles.imgAndText}>
-          <img src={ArticleImg3}/>
+          <img src={ArticleImg3} alt="Рука в руке"/>
           <p>
             Чем шире доступный вам репертуар реакций 
             и чем более осознанно вы можете 
@@ -232,7 +232,7 @@ export const ArticlePage = () => {
         </div>
         <div className={styles.row24}>
           <div className={styles.col24}>
-            <img src={ArticleImg4}/>
+            <img src={ArticleImg4} alt="Предметы на стуле"/>
             <p>
               Чем шире доступный вам репертуар реакций 
               и чем более осознанно вы можете выбирать 
@@ -244,7 +244,7 @@ export const ArticlePage = () => {
             </p>
           </div>
           <div className={styles.col24}>
-            <img src={ArticleImg5}/>
+            <img src={ArticleImg5} alt="Закат"/>
             <p>
               Чем шире доступный вам репертуар реакций 
               и чем более осознанно вы можете выбирать 
@@ -255,7 +255,7 @@ export const ArticlePage = () => {
             </p>
           </div>
         </div>
-        <img className={styles.br} src={Br}/>
+        <img className={styles.br} src={Br} alt=""/>
         <p>
           Одна из ключевых задач психотерапии 
           как раз и заключается в том, 
@@ -300,7 +300,7 @@ export const ArticlePage = () => {
             <p className={styles.descr}>Поможем подобрать специалиста по работе с подобным запросом</p>
             <AppButton variant="filled">Подобрать психолога</AppButton>
           </div>
-          <img src={LastBanner}/>
+          <img src={LastBanner} alt="Два анимированных человека"/>
         </div>
       }
     </>
